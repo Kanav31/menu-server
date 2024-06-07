@@ -1,0 +1,16 @@
+<!-- restaurant/templates/menu.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Menu Form</title>
+</head>
+<body>
+    <h1>Enter Restaurant Name</h1>
+    <form method="post" action="{% url 'restaurant_menu' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
