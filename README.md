@@ -148,5 +148,7 @@ scrape_and_process_menu('Epitome The Lower Parel')
 By following the above steps, you will be able to scrape menu images from Zomato, perform OCR to extract menu content, and store the extracted data in a Django SQL database. Make sure to provide the full and correct restaurant name as per Zomato to avoid any issues.
 
 ---
+SQL DB Image
+![image](https://github.com/Kanav31/menu-server/assets/90086445/a7a4392a-0f35-4682-b70f-711e2b33809b)
 
 Feel free to adapt this README further to fit any additional requirements or details specific to your project.
