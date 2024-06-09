@@ -1,7 +1,3 @@
-Certainly! Here's an improved and more detailed README content for your project:
-
----
-
 # Menu Image Scraper and OCR Processor
 
 This project is designed to scrape food menu images from Zomato for specific restaurants in Mumbai, process these images using OCR (Optical Character Recognition) with `pytesseract`, and store the extracted content in a Django SQL database.
